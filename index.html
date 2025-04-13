@@ -83,6 +83,30 @@
         <blockquote cite="https://www.pensador.com/frase/MTM1NzM5Nw/">"Viajar é trocar a roupa da alma." - Mario Quintana</blockquote>
     </aside>
 
+    <!--Formulário de contato-->
+    <section id="contato">
+        <h3>Envie sua dúvida ou comentário</h3>
+        <form action="recebe_dados.php" method="get">
+            <fieldset>
+
+                <label for="name">Nome Completo:</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite o seu nome" required>
+                <br><br>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" placeholder="Digite o seu e-mail" required>
+                <br><br>
+
+                <label for="mensagem">Mensagem:</label>
+                <br>
+                <textarea id="mensagem" name="mensagem" rows="5" placeholder="Escreva sua mensagem" required cols="50"></textarea>
+                
+                <button type="submit">Enviar</button>
+            </fieldset>
+        </form>
+    </section>
+
+    <!--Rodapé-->
     <footer>
         <p>&copy; 2025 Explorando o Mundo. Todos os direitos reservados.</p>
         <p>Contato: explorando@email.com</p>
